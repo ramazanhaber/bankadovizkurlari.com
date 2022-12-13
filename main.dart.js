@@ -47259,7 +47259,7 @@ var $async$mv=A.a3(function(a,b){if(a===1)return A.a_(b,r)
 while(true)switch(s){case 0:p=t.N
 o=A.aQ(["Content-Type","application/json; charset=UTF-8"],p,p)
 s=3
-return A.a6(A.aHm(A.aF1("http","93.113.96.228:9095","/api/Genel/verileriGetirAdmin",A.aQ(["userName","re","password","ze"],p,p)),o).bA(0,new A.amt(),t.s3),$async$mv)
+return A.a6(A.aHm(A.aF1("http","api.bankadovizkurlari.com:9096","/api/Genel/verileriGetirAdmin",A.aQ(["userName","re","password","ze"],p,p)),o).bA(0,new A.amt(),t.s3),$async$mv)
 case 3:q=b
 s=1
 break
@@ -47281,7 +47281,7 @@ var $async$uq=A.a3(function(c,d){if(c===1)return A.a_(d,r)
 while(true)switch(s){case 0:p=t.N
 o=A.aQ(["Content-Type","application/json; charset=UTF-8"],p,p)
 s=3
-return A.a6(A.aHm(A.aF1("http","93.113.96.228:9095","/api/Genel/grafikGetir",A.aQ(["userName","re","password","ze","gha",a,"kod",b],p,p)),o).bA(0,new A.a16(),t.gZ),$async$uq)
+return A.a6(A.aHm(A.aF1("http","api.bankadovizkurlari.com:9096","/api/Genel/grafikGetir",A.aQ(["userName","re","password","ze","gha",a,"kod",b],p,p)),o).bA(0,new A.a16(),t.gZ),$async$uq)
 case 3:q=d
 s=1
 break
